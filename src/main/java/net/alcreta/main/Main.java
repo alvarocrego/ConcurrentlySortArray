@@ -24,7 +24,7 @@ public class Main {
 //        Ordenacion.quickSort(a);
 //        System.out.println(a.toString());
 
-        ArrayDesordenado array = new ArrayDesordenado(10000000);
+        ArrayDesordenado array = new ArrayDesordenado(100000000);
         array.comenzar();
 
         long startTime = System.currentTimeMillis();
