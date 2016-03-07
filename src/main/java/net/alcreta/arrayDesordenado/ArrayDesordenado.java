@@ -49,8 +49,8 @@ public class ArrayDesordenado {
             while (count != x) {
                 Double a = Math.floor(Math.random() * ((-8000000) - 8000000 + 1) + 8000000);
                 insert(a.intValue(), x);
-                if ((((double) x / (double) count)*100) % 5 == 0) {
-                    System.out.println(((double)x/(double)count)*100+"%");
+                if ((((double) x / (double) count) * 100) % 5 == 0) {
+                    System.out.println(((double) x / (double) count) * 100 + "%");
                 }
                 x++;
             }

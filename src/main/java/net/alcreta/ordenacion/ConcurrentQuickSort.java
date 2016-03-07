@@ -12,17 +12,16 @@ import java.util.logging.Logger;
  *
  * @author Álvaro
  */
-public class ConcurrentQuickSort extends Thread{
-    
+public class ConcurrentQuickSort extends Thread {
+
     Integer[] array;
 
     public ConcurrentQuickSort(Integer[] array) {
         this.array = array;
     }
-    
+
     @Override
-    public void run(){
+    public void run() {
         Ordenacion.quickSort(array);
-        //System.out.println("Finalizado");
     }
 }
