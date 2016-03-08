@@ -55,7 +55,7 @@ public class ArrayDesordenado {
                 x++;
             }
             System.out.println("100.0%");
-            guardar();
+            //guardar();
         } else {
             System.out.println("Exise el fichero");
         }
